@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Blackbird";
+  src: url("./font/Projekt\ Blackbird\ v2.otf");
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #E6E6E6;
+  font-family: "Blackbird", sans-serif;
+  font-size: 2rem;
+  color: #14279B;
+}
+
+.container {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 6rem;
+  text-align: center;
+}
+
+.link a {
+  color: #14279B;
+  text-decoration: none;
+}
+
+.link a:hover {
+  background-color: #14279B;
+  color: white;
+}
+
+@media (max-width: 1850px) {
+  .container {
+    width: 100vw;
+    height: 70vh;
+  }
+
+  .title {
+    font-size: 6.5rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    height: 80vh;
+  }
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 5rem;
+  }
+
+  .link {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 4rem;
+  }
+}
